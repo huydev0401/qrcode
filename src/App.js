@@ -58,7 +58,8 @@ function App() {
               <QRCode
                 value={qrValues}
                 errorLevel="H"
-                icon="wow-brand.png"
+                iconSize={48}
+                icon="logowow-black.png"
                 className="mb-[20px]"
               />
               <Button onClick={handleDownload}>Download QR Code</Button>
