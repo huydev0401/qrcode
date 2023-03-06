@@ -52,10 +52,15 @@ function App() {
           {qrValues && (
             <div
               ref={qrCodeRef}
-              className="flex flex-col items-center mt-[50px]"
+              className="flex flex-col items-center mt-[30px]"
             >
               <h4>Mã QR Code của bạn</h4>
-              <QRCode value={qrValues} className="mb-[20px]" />
+              <QRCode
+                value={qrValues}
+                errorLevel="H"
+                icon="wow-brand.png"
+                className="mb-[20px]"
+              />
               <Button onClick={handleDownload}>Download QR Code</Button>
             </div>
           )}
