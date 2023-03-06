@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="flex items-center justify-center">
-      <div className="max-w-[500px] mt-[120px] shadow-md p-[40px] rounded-3xl bg-white">
+      <div className="max-w-[500px] mt-[120px] shadow-md px-[40px] py-[20px] rounded-3xl bg-white">
         <h2 className="uppercase text-[32px] font-semibold mb-[20px] text-center font-sans">
           Tạo QR Code tự động
         </h2>
