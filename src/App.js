@@ -66,7 +66,7 @@ function App() {
             </div>
           )}
         </Form>
-        <p className="text-[10px] font-sans italic text-right">make by Ethan</p>
+        <p className="text-[10px] font-sans italic text-right">made by Ethan</p>
       </div>
     </div>
   );
